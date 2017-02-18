@@ -99,6 +99,16 @@ p{
   margin-right: 50px;
 }
 
+#shopping-list-1{
+  margin: 0;
+  list-style: square;
+  float: left;
+}
+#shopping-list-2{
+  margin: 0;
+  list-style: square;
+  float: left;
+}
 
 
 /*.nav-bar-item{
