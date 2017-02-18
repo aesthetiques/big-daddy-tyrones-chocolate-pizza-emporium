@@ -18,10 +18,18 @@
 }*/
 
 #logo{
-  float:left;
+  float: left;
+  display: inline;
+  padding-top: 12.5px;
 }
 
-#logo-text{
+#logo-text-top{
+  font-family: helvetica;
+  font-size: 2.5em;
+}
+/*.logo-text{
+  float: left;*/
+  /*display: inline-block;
   font-family: helvetica;
   line-height: 1em;
   height: 1em;
@@ -29,7 +37,8 @@
   white-space: nowrap;
   text-overflow: ellipsis;
   width: 100%;
-}
+  padding-right: 20px;
+}*/
 
 #nav-bar{
   display: inline-block;
