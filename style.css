@@ -1,21 +1,10 @@
-/*#nav-bar-item{
-  margin-left: 10px;
-  margin-right: -5px;
-  margin-top: 1px;
-  background-color: #131313;
-  border-radius: 1px;
-  display: inline-block;
-  border: solid #131313;
-  opacity: .85;
-  text-decoration: none;
-  text-transform: lowercase;
-  font-family: helvetica;
-  font-weight: bold;
-  font-size: 24px;
-  color: #E6DEDC;
-  border-width: 1.5px;
-  padding: 0px 2px;
-}*/
+/*Page Top*/
+body{
+  margin: 0 auto;
+}
+#header{
+  background-color: #FFFFFF;
+}
 
 #logo{
   float: left;
@@ -27,48 +16,90 @@
   font-family: helvetica;
   font-size: 2.5em;
 }
-/*.logo-text{
-  float: left;*/
-  /*display: inline-block;
-  font-family: helvetica;
-  line-height: 1em;
-  height: 1em;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  width: 100%;
-  padding-right: 20px;
-}*/
-
-#nav-bar{
-  display: inline-block;
-}
 
 sub{
   text-transform: lowercase;
   font-family: helvetica;
 }
-
-
-#nav-bar-item:hover {
-  /*background-color: #660000;
-  color: #660000;*/
-  background: rgba(13,13,13,0.75);
-}
 .nav-bar {
-  top: 50px;
-  height: 75px;
+  top: 0px;
+  padding-top: 0px;
+  /*height: 75px;*/
   position: fixed;
   width: 100%;
   padding-left: 50px;
   padding-right: 50px;
-  /*background: rgba(102,0,0,0.85);*/
+  background: #FFFFFF;
+  bottom: 0px;
+}
+td:last-child a{
+  float: right;
+  margin: 20px 3px 3px 3px;
 }
 
-td a{
-  float: right;
-  margin: 3px;
+/*Horizontal Rule*/
+td .horizontal-rule{
+  margin-top: 30px;
+  margin-bottom: 70px;
+  width: 0 auto;
+  width: 127%;
+  margin-bottom: 1px;
 }
+
+#content{
+  margin-top: 20%;
+  margin-left: 50px;
+  font-family: helvetica;
+  font-size: 1.3em;
+}
+/*Article Ttitle and subheading*/
+#content h1{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.title-sub{
+  color: #999999;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+/*Above Picture*/
+h5 img{
+  float: right;
+  margin-right: 50px;
+}
+
+#little-sub-2{
+  padding-right: 0px;
+  margin-right: 50px;
+  text-align: center;
+}
+/*center choco pizza*/
+.img-center{
+  display: block;
+  margin: 0 auto;
+  padding-top: 40px;
+  width: 1250px;
+  max-height: 150%;
+}
+
+#header div{
+  padding-right: 0px;
+}
+
+#article{
+  display: block;
+  margin: 0 auto;
+  padding-top: 40px;
+  /*width: 1250px;
+  max-height: 150%;*/
+}
+
+p{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
 
 /*.nav-bar-item{
   margin-left: 10px;
@@ -88,3 +119,44 @@ td a{
   border-width: 1.5px;
   padding: 0px 2px;*/
 }
+
+/*.logo-text{
+  float: left;*/
+  /*display: inline-block;
+  font-family: helvetica;
+  line-height: 1em;
+  height: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+  padding-right: 20px;
+}*/
+
+/*#nav-bar{
+  display: inline-block;
+}*/
+
+/*#nav-bar-item:hover {
+  background-color: #660000;
+  color: #660000;
+  background: rgba(13,13,13,0.75);
+}*/
+/*#nav-bar-item{
+  margin-left: 10px;
+  margin-right: -5px;
+  margin-top: 1px;
+  background-color: #131313;
+  border-radius: 1px;
+  display: inline-block;
+  border: solid #131313;
+  opacity: .85;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 24px;
+  color: #E6DEDC;
+  border-width: 1.5px;
+  padding: 0px 2px;
+}*/
