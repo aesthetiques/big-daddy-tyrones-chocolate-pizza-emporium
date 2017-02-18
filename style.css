@@ -103,11 +103,19 @@ p{
   margin: 0;
   list-style: none;
   float: left;
+  background: url("chocopix/list-bg.png");
+  margin-left: 300px;
+  margin-right: 0px;
+  padding-right: 0px;
 }
-#shopping-list-2{
+.shopping-list-2{
   margin: 0;
   list-style: none;
   float: left;
+  background: url("chocopix/list-bg.png");
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-right: 200px;
 }
 
 
